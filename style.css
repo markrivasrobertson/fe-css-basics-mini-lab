@@ -1,4 +1,9 @@
-
+#firstParagraph {
+  background-color:  lightblue;
+}
+p:hover {
+  font-weight: bold;
+}
 .box {
   width: 100px;
   height: 100px;
@@ -15,4 +20,14 @@
 
 #three {
   background-color: green;
+}
+#firstParagraph:hover {
+  color: red;
+}
+.box:hover {
+  background-color: red;
+}
+img {
+  display: block;
+  margin: auto;
 }
